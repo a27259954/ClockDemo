@@ -7,7 +7,7 @@ const today = new Date();
     <img src="../assets/dotcase.png"  class=" ring" />
     <div class="strArea">
       <p class="pp1">{{today.getFullYear()}}</p>
-      <p class="pp2">{{today.getMonth()}}月</p>
+      <p class="pp2">{{today.getMonth() + 1}}月</p>
       <p class="pp3">{{today.getDate()}}</p>
     </div>
 
