@@ -21,7 +21,7 @@ const hourRotation = computed(() => {
 
 <template>
   <div style="background: transparent; width: 90%; height: 90%; position: relative ;">
-    <img src="../assets/ring2.png"  class=" ring" />
+    <img src="../assets/RING2.png"  class=" ring" />
     <img
         class="hour"
         :src="hourImage"
