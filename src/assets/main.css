@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+@font-face {
+  font-family: 'ThePeakFontBeta';
+  src: url('@/assets/ThePeakFontBeta_V0_101.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
